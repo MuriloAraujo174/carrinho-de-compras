@@ -1,0 +1,207 @@
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    :root {
+        --bg-img1: url("../assets/icon-tela-card.svg");
+    }
+    
+    section {
+        position: relative;
+    }
+
+    .header-container {
+        position: absolute;
+        right: 0;
+        width: 400px;
+    }
+
+    .container {
+        position: absolute;
+        top: 95px;
+        right: 0;
+        width: 400px;
+    }
+
+    .section-none-mobile {
+        display: block;
+    }
+    
+    .container-imagens {
+        width: 40%;
+        height: 100vh;
+    }
+    
+    .img-troca {
+        position: relative;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        
+    }
+
+    .img {
+        position: absolute;
+        top: 300px;
+        width: 130px;
+        height: 180px;
+        background-image: var(--bg-img1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:  992px) {
+
+    :root {
+        --bg-img1: url("../assets/icon-tela-card.svg");
+    }
+
+    section {
+        position: relative;
+    }
+
+    .header-container {
+        position: absolute;
+        right: 0;
+        width: 400px;
+    }
+
+    .container {
+        position: absolute;
+        top: 95px;
+        right: 0;
+        width: 400px;   
+    }
+
+    .section-none-mobile {
+        display: block;
+    }
+    
+    .container-imagens {
+        width: 40%;
+        height: 100vh;
+    }
+    
+    .img-troca {
+        position: relative;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        
+    }
+
+    .img {
+        position: absolute;
+        top: 300px;
+        width: 280px;
+        height: 280px;
+        background-image: var(--bg-img1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    :root {
+        --bg-img1: url("../assets/icon-tela-card.svg");
+    }
+    
+    section {
+        position: relative;
+    }
+
+    .header-container {
+        position: absolute;
+        right: 0;
+        width: 500px;
+    }
+
+    .container {
+        position: absolute;
+        top: 95px;
+        right: 0;
+        width: 500px;
+        
+    }
+
+    .section-none-mobile {
+        display: block;
+    }
+    
+    .container-imagens {
+        width: 40%;
+        height: 100vh;
+    }
+    
+    .img-troca {
+        position: relative;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        
+    }
+
+    .img {
+        position: absolute;
+        top: 300px;
+        width: 370px;
+        height: 370px;
+        background-image: var(--bg-img1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    
+    :root {
+        --bg-img1: url("../assets/icon-tela-card.svg");
+    }
+    
+    section {
+        position: relative;
+    }
+
+    .header-container {
+        position: absolute;
+        right: 0;
+        width: 700px;
+    }
+
+    .container {
+        position: absolute;
+        top: 95px;
+        right: 0;
+        width: 700px;
+        
+    }
+
+    .section-none-mobile {
+        display: block;
+    }
+    
+    .container-imagens {
+        width: 40%;
+        height: 100vh;
+    }
+    
+    .img-troca {
+        position: relative;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        
+    }
+
+    .img {
+        position: absolute;
+        top: 280px;
+        width: 500px;
+        height: 500px;
+        background-image: var(--bg-img1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+

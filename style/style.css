@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #18181B;
+    color: white;
+}
+
+.header-container {
+    width: 100%;
+    height: 95px;
+    padding: 24px 28px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 48px 32px;
+}
+
+.container-card {
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.card-img {
+    width: 104px;
+    display: inline-block;
+}
+
+.informacao-do-produto {
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+}
+
+.paragrafo-dos-produtos {
+    padding-bottom: 20px;
+}
+
+.container-de-valores {
+    position: relative;
+}
+
+.preco {
+    display: inline-block;
+}
+
+.minus {
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+    border: 1px solid #9333EA;
+}
+
+.minus:hover {
+    background-color: #9333EA;
+}
+
+.valor {
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    display: inline-block;
+}
+
+.plus {
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    border: 1px solid #9333EA;
+}
+
+.plus:hover {
+    background-color: #9333EA;
+}
+
+.botao-para-pagar {
+    width: 100%;
+    background-color: #18181B;
+}
+
+.paragrafo-do-valor-a-pagar {
+    position: relative;
+}
+
+.valor-somado {
+    position: absolute;
+    right: 25px;
+}
+
+.local-do-cupom {
+    display: block;
+    position: relative;
+    padding: 20px;
+}
+
+.cupom {
+    position: absolute;
+    right: 25px;
+    color: #A855F7;
+}
+
+.cupom:hover {
+    color: #C084FC;
+}
+
+.cupom::before {
+    content: url("../assets/icon-tag.svg");
+}
+
+
+.buttom-pagar {
+    width: 100%;
+}
+
+.buttom {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #9333EA;
+    color: white;
+}
+
+.buttom:hover {
+    background-color: #A855F7;
+    transition-duration: .7s;
+    -o-transition-duration: .7s;
+    -moz-transition-duration: .7s;
+    -webkit-transition-duration: .7s;
+}
+
+.section-none-mobile {
+    display: none;
+}
+
